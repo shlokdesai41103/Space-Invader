@@ -8,7 +8,7 @@ screen = pygame.display.set_mode((576,1024))# here we created a screen with a wi
 # the dimensions of the screen could be anything you want
 clock =  pygame.time.Clock()#clock object will help us set the frame rate of the screen
 
-bg_surface = pygame.image.load('assets/backgroud-day.png')#image that you want to load onto your surface
+bg_surface = pygame.image.load('assets\backgroud-day.png')#image that you want to load onto your surface
 
 while True:
     for event in pygame.event.get():# for loop that catches events, these events could be key clicks, window exits, or timers
